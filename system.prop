@@ -1,0 +1,3 @@
+# mrservice renders passthrough into a luminance-only eyebuffer, which throws
+# away everything but the red channel. Force RGBA so the tint survives.
+persist.oculus.mrservice.eyebuffer_force_rgba=1
